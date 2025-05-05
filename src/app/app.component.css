@@ -1,0 +1,39 @@
+nav ul{
+display: flex;
+   flex-direction: row;
+   margin: auto;
+}
+
+li {
+    padding: 2em;
+    margin: auto;
+    width: 50%;
+    font-size: 1.2em;
+    list-style: none;
+  
+}
+
+li a:hover {
+color: rgb(219, 255, 213);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-top: 2em;
+text-align: center;
+}
+
+h1 {
+    padding-bottom: 1em;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+footer p {
+    text-align: center;
+    padding: 1em;
+}

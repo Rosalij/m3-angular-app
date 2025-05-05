@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(103, 124, 145);
+}
+
+
+p,
+h1,
+h2,
+h3,
+a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: auto;
+
+}
+
+p {
+ text-align: center;
+}
