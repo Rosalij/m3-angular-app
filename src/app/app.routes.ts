@@ -3,9 +3,10 @@ import { ConverterComponent } from './converter/converter.component';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ConverterpageComponent } from './converterpage/converterpage.component';
 
 export const routes: Routes = [
-    { path: 'converter', component: ConverterComponent },
+    { path: 'converterpage', component: ConverterpageComponent },
     { path: 'home', component: HomeComponent },
     { path: 'about', component: AboutComponent },
     { path: '', redirectTo: '/home', pathMatch: 'full' }

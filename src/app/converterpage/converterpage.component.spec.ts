@@ -1,17 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ConverterComponent } from './converter.component';
 
-describe('ConverterComponent', () => {
-  let component: ConverterComponent;
-  let fixture: ComponentFixture<ConverterComponent>;
+import { ConverterpageComponent } from './converterpage.component';
+
+describe('ConverterpageComponent', () => {
+  let component: ConverterpageComponent;
+  let fixture: ComponentFixture<ConverterpageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ConverterComponent]
+      imports: [ConverterpageComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ConverterComponent);
+    fixture = TestBed.createComponent(ConverterpageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

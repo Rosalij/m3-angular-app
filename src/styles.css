@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background-color: rgb(103, 124, 145);
+    max-width: 2000px;
 }
 
 
@@ -21,3 +22,11 @@ a {
 p {
  text-align: center;
 }
+
+@media all and (max-width: 900px) {
+    button {
+        max-width: 100%;
+    }
+.results {
+    width: 90%;
+}}

@@ -2,12 +2,13 @@ nav ul{
 display: flex;
    flex-direction: row;
    margin: auto;
+   align-content: space-around;
 }
 
 li {
+    
     padding: 2em;
     margin: auto;
-    width: 50%;
     font-size: 1.2em;
     list-style: none;
   
@@ -16,6 +17,8 @@ li {
 li a:hover {
 color: rgb(219, 255, 213);
 }
+
+
 
 main {
     width: 80%;
@@ -29,11 +32,29 @@ h1 {
 }
 
 footer {
-  bottom: 0;
+
+  bottom: 100%;
   width: 100%;
-  position: absolute;
+  position: relative;
 }
+
 footer p {
+    margin-top: 2em;
     text-align: center;
     padding: 1em;
+    background-color: rgb(34, 53, 70);
+}
+
+
+
+@media all and (max-width: 900px) {
+
+li {
+padding: 0em;
+  margin: auto;
+    max-width: 50%;
+}
+ul {
+ display: contents};
+
 }

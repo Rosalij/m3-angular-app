@@ -1,0 +1,54 @@
+label, input, button{
+    color: white;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 1.3em;
+    display: flex; 
+    margin: auto;
+}
+
+input {
+   background-color: rgb(13, 18, 77);
+    border: rgb(178, 178, 178);
+    border-style: solid;
+    height: 2em;
+    margin-bottom: 2em;
+}
+
+
+label {
+    display: flex;
+    padding-top: 2em;
+    justify-content: center;
+    padding-bottom:1em
+}
+button {
+font-family: monospace;
+border: white;
+padding: 1em;
+margin: auto;
+width: 20em;
+border-width: 1px;
+border-style: solid;
+transition: 0.2s;}
+
+button:hover {
+    background-color: rgb(13, 18, 77);
+}
+
+.buttondiv {
+    margin: auto;
+    width:40%;
+    text-align: center;
+}
+
+.results {
+    padding-top: 1em;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 800;
+    color:white;
+    font-size: 2em;
+    padding-bottom: 2em;
+}

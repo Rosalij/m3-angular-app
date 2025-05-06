@@ -1,1 +1,16 @@
-<p>converter works!</p>
+
+
+    <div class="measureconverter">
+        <label for="numberInput">Write a number to convert:</label>
+        <input type="number" [(ngModel)]="numberInput"/>
+    
+    </div>
+    <div class="buttondiv">
+        <button (click)="convertToFeet()">Convert meter to feet</button>
+        <button (click)="convertToMeter()">Convert feet to meter</button>
+        <br>
+        <button (click)="convertToFahrenheit()">Convert celsius to fahrenheit</button>
+        <button (click)="convertToCelsius()">Convert fahrenheit to celsius</button>
+    </div>
+    
+    <div class="results"> <p>Result:</p> <p>{{ result }}</p></div>
